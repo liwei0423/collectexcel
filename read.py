@@ -2,7 +2,7 @@ import os
 import openpyxl
 
 path = "g://aa";
-keyword = "九年级";
+keyword = "八年级";
 fileList = os.listdir(path)
 resultTxt = "g://999.txt"
 for filename in fileList:

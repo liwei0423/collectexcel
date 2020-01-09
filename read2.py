@@ -13,4 +13,4 @@ for filename in fileList:
     for i in range(2, ws.max_row + 1):
         #print(ws.cell(i, 1).value+","+ws.cell(i, 3).value)
         with open(resultTxt, 'a+') as file_object:
-            file_object.write(str(ws.cell(i, 3).value)+","+str(ws.cell(i, 5).value)+"\n")
+            file_object.write(str(ws.cell(i, 1).value)+","+str(ws.cell(i, 3).value)+"\n")
